@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+}
+.main {
+  height: 100vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  background-color: white;
+}
+.centerbox {
+  position: relative;
+  height: 20vh;
+  width: 20vw;
+  border: 2px solid #b24233;
+  top: 35vh;
+  top: 40vh;
+  left: 30vw;
+  bottom: 35vh;
+  z-index: 1;
+}
+.outerbox1 {
+  position: absolute;
+  height: 20vh;
+  width: 20vw;
+  border: 2px solid #fa5653;
+  top: 30vh;
+  left: 30vw;
+}
+.outerbox2 {
+  position: absolute;
+  height: 20vh;
+  width: 20vw;
+  border: 2px solid #f6f63b;
+  top: 30vh;
+  left: 50vw;
+}
+.outerbox3 {
+  position: absolute;
+  height: 20vh;
+  width: 20vw;
+  border: 2px solid #71b372;
+  top: 50vh;
+  left: 30vw;
+}
+.outerbox4 {
+  position: absolute;
+  height: 20vh;
+  width: 20vw;
+  border: 2px solid #f79877;
+  top: 50vh;
+  left: 50vw;
+}
