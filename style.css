@@ -5,53 +5,54 @@
 }
 .container {
   height: 100vh;
+  width: 100vw;
+  position: relative;
 }
 .main {
-  height: 100vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  background-color: white;
+  position:absolute;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    width: 20%;
+    aspect-ratio: 1;
 }
 .centerbox {
-  position: relative;
-  height: 20vh;
-  width: 20vw;
+  position: absolute;
+  aspect-ratio: 1;
+  width: 50%;
   border: 2px solid #b24233;
-  top: 35vh;
-  top: 40vh;
-  left: 30vw;
-  bottom: 35vh;
-  z-index: 1;
+  left: 25%;
+    top: 25%;
 }
 .outerbox1 {
   position: absolute;
-  height: 20vh;
-  width: 20vw;
+  aspect-ratio: 1;
+  width: 50%;
   border: 2px solid #fa5653;
-  top: 30vh;
-  left: 30vw;
+  top: 0;
+  left: 0;
 }
 .outerbox2 {
   position: absolute;
-  height: 20vh;
-  width: 20vw;
+  aspect-ratio: 1;
+  width: 50%;
   border: 2px solid #f6f63b;
-  top: 30vh;
-  left: 50vw;
+  left: 50%;
+  top: 0;
 }
 .outerbox3 {
   position: absolute;
-  height: 20vh;
-  width: 20vw;
+  aspect-ratio: 1;
+  width: 50%;
   border: 2px solid #71b372;
-  top: 50vh;
-  left: 30vw;
+  top:50%;
+  left: 0;
 }
 .outerbox4 {
   position: absolute;
-  height: 20vh;
-  width: 20vw;
+  aspect-ratio: 1;
+  width: 50%;
   border: 2px solid #f79877;
-  top: 50vh;
-  left: 50vw;
+  left: 50%;
+  top:50%;
 }
